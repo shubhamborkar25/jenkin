@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo "Deploy started" 
+                echo "Deploy started" >> file2.txt 
             }
         }
     }
