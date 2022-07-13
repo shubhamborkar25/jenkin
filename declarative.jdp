@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-               sh echo "Test started" >> file2.txt 
+               sh 'echo "Test started" >> file2.txt' 
 
             }
         }
