@@ -5,9 +5,7 @@ node {
         sh 'echo \'successfully deployed\' >> home.txt' 
     }
     stage('Test') { 
-            steps {
                sh 'echo "Test started" >> file2.txt' 
-            }
         }
     
 }   
