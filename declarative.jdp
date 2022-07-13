@@ -5,12 +5,12 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               sh  echo "Build started" >> file2.txt 
+               sh 'echo "Build started" >> file2.txt' 
             }
         }
         stage('Test') { 
             steps {
-                echo "Test started" >> file2.txt 
+               sh echo "Test started" >> file2.txt 
 
             }
         }
