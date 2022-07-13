@@ -7,5 +7,4 @@ node {
     stage('Test') {
         sh 'echo "Test started" >> file3.txt' 
     }
-    
 }   
