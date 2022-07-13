@@ -1,13 +1,12 @@
-job('git item') {
-    scm {
-        git {
-            remote {
-                name('origin')
-                url('https://github.com/swapnibrad/shubham_b.git')
-            }
-        }
+node {  
+    stage('git clone') { 
+        git 'https://github.com/shubhamborkar25/shubham_b.git'
     }
-    steps {
-         shell('echo successfully implemented item')
+    stage('Build_vaibhav') { 
+        sh 'pwd >> home.txt' 
     }
+    stage('test') { 
+        sh 'echo \'successfully deployed\' >> home.txt' 
+    }
+    
 }
