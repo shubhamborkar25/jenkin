@@ -1,5 +1,5 @@
 node {  
-    stage('git clone') { 
+    stage('pull ') { 
         git 'https://github.com/shubhamborkar25/shubham_b.git'
     }
     // stage('Build_vaibhav') { 
