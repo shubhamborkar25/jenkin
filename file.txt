@@ -1,2 +1,5 @@
 hello moto
 welcome to lenovo
+
+hello moto
+welcome to lenovo
