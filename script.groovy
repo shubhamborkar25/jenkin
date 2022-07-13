@@ -1,4 +1,4 @@
-node {
+node('la') {
    
     stage('test') { 
         sh 'echo \'successfully deployed\' >> file3.txt' 
