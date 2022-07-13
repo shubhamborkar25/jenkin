@@ -1,6 +1,6 @@
 node {  
     stage('pull ') { 
-        git 'https://github.com/shubhamborkar25/shubham_b.git'
+        git 'https://github.com/shubhamborkar25/jenkin.git'
     }
    
     stage('test') { 
