@@ -9,4 +9,4 @@ node {
         sh 'echo \'successfully deployed\' >> home.txt' 
     }
     
-}
+}   
