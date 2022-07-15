@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               sh 'echo "Build started" >> file2.txt' 
+               sh 'apt update' 
             }
         }
         stage('Test') { 
