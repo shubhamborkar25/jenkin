@@ -5,17 +5,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                // 
+                echo 'hellow world' 
             }
         }
         stage('Test') { 
             steps {
-                // 
+                echo 'hellow test'
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo 'hellow de' 
             }
         }
     }
