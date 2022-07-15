@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 'hellow de' 
+                echo 'hellow Deploy' 
             }
         }
     }
