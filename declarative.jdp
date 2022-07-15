@@ -15,7 +15,7 @@ pipeline {
                sh 'echo "Test started" >> file2.txt' 
             }
         }
-        stage('Deploy') { 
+        // stage('Deploy') { 
             steps {
                 sh 'echo "Deploy started" >> file2.txt' 
             }
