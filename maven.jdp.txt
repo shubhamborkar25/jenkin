@@ -1,5 +1,6 @@
 pipeline{
     agent {
-        label '
+        label 'label-1'
     }
+    
 }
