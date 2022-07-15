@@ -4,6 +4,7 @@ pipeline{
     }
     stages {
         stage {
-            
+            sh 'apt update'
+            sh 
     }
 }
