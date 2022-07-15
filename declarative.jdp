@@ -1,23 +1,19 @@
 pipeline {
-    agent {
-        label 'label-1'
-    } 
+    agent any 
     stages {
         stage('Build') { 
             steps {
-               sh 'apt update'
-               sh 'apt install maven -y'
-                
+                // 
             }
         }
         stage('Test') { 
             steps {
-               sh 'echo "Test started" >> file2.txt' 
+                // 
             }
         }
-        // stage('Deploy') { 
+        stage('Deploy') { 
             steps {
-                sh 'echo "Deploy started" >> file2.txt' 
+                // 
             }
         }
     }
