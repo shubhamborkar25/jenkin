@@ -2,5 +2,5 @@ pipeline{
     agent {
         label 'label-1'
     }
-    
+    stages {
 }
