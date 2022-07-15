@@ -2,8 +2,10 @@ pipeline{
     agent {
         label 'label-1'
     }
-    stages {
-        stage {
-            sh 'echo "hellw"'
-    }
+    stage('Build') { 
+        steps {
+               sh 'apt update'
+               sh 'apt install maven -y'
+                
+            }
 }
