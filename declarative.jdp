@@ -6,7 +6,8 @@ pipeline {
         stage('Build') { 
             steps {
                sh 'apt update'
-               sh 'apt install maven 
+               sh 'apt install maven -y'
+                
             }
         }
         stage('Test') { 
