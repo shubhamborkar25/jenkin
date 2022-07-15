@@ -4,6 +4,6 @@ pipeline{
     }
     stages {
         stage {
-            ech
+            echo "hellw"
     }
 }
